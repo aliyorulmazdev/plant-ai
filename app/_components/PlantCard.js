@@ -5,15 +5,15 @@ import { GemIcon } from "lucide-react";
 export default function PlantCard() {
   return (
     <div className="grid min-h-screen w-full bg-gradient-to-br from-purple-100 via-pink-100 to-red-100 dark:from-purple-900 dark:via-pink-900 dark:to-red-900">
-      <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-md dark:bg-gray-950/80 px-4 py-3 flex items-center justify-between">
+      <header className="sticky h-28 top-0 z-10 bg-white/80 backdrop-blur-md dark:bg-gray-950/80 px-4 py-1 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <GemIcon className="w-6 h-6 text-rose-500" />
           <h1 className="text-lg font-semibold text-black">
             plantAI: <span className="text-rose-500">Lettuce</span>
           </h1>
         </div>
-        <Button variant="ghost" size="icon" className="rounded-full shadow-md">
-          <MenuIcon className="w-6 h-6 text-black" />
+        <Button variant="ghost" size="icon">
+          <MenuIcon className="w-4 h-4 text-rose-500" />
           <span className="sr-only">Menu</span>
         </Button>
       </header>
