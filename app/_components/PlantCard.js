@@ -4,12 +4,12 @@ import { DiamondIcon } from "lucide-react";
 
 export default function PlantCard() {
   return (
-    <div className="grid min-h-screen w-full bg-gradient-to-br from-blue-100 via-teal-100 to-green-100 dark:from-blue-900 dark:via-teal-900 dark:to-green-900">
+    <div className="grid min-h-screen w-full bg-gradient-to-br from-blue-100 via-lime-100 to-green-100 dark:from-blue-900 dark:via-lime-900 dark:to-green-900">
       <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-md dark:bg-gray-950/80 px-4 py-1 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <DiamondIcon className="w-5 h-5 text-teal-500" />
+          <DiamondIcon className="w-5 h-5 text-lime-500" />
           <h1 className="text-md font-semibold text-black">
-            plantAI: <span className="text-teal-500">Lettuce</span>
+            plantAI: <span className="text-lime-500">Lettuce</span>
           </h1>
         </div>
         <Button variant="ghost" size="icon" className="rounded-full shadow-md">
@@ -21,7 +21,7 @@ export default function PlantCard() {
         <section className="bg-white rounded-lg shadow-md dark:bg-gray-900 p-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <LeafIcon className="w-6 h-6 text-teal-500" />
+              <LeafIcon className="w-6 h-6 text-lime-500" />
               <div>
                 <h2 className="text-base font-semibold text-black">
                   Environment
@@ -70,7 +70,7 @@ export default function PlantCard() {
         <section className="bg-white rounded-lg shadow-md dark:bg-gray-900">
           <div className="p-2 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <LightbulbIcon className="w-6 h-6 text-teal-500" />
+              <LightbulbIcon className="w-6 h-6 text-lime-500" />
               <div>
                 <h2 className="text-lg font-semibold text-black">Lights</h2>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -83,7 +83,7 @@ export default function PlantCard() {
               size="icon"
               className="rounded-full shadow-md"
             >
-              <CalendarIcon className="w-6 h-6 text-teal-500" />
+              <CalendarIcon className="w-6 h-6 text-lime-500" />
               <span className="sr-only">Set schedule</span>
             </Button>
           </div>
@@ -91,9 +91,9 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-teal-500 hover:text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-lime-500 hover:text-white shadow-md"
               >
-                <SunIcon className="w-25 h-25 text-teal-500 hover:text-white" />
+                <SunIcon className="w-25 h-25 text-lime-500 hover:text-white" />
               </Button>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Day
@@ -102,7 +102,7 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 bg-teal-500 text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 bg-lime-500 text-white shadow-md"
               >
                 <MoonIcon className="w-25 h-25 text-white" />
               </Button>
@@ -113,9 +113,9 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-teal-500 hover:text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-lime-500 hover:text-white shadow-md"
               >
-                <LeafIcon className="w-25 h-25 text-teal-500 hover:text-white" />
+                <LeafIcon className="w-25 h-25 text-lime-500 hover:text-white" />
               </Button>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Grow
@@ -124,9 +124,9 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-teal-500 hover:text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-lime-500 hover:text-white shadow-md"
               >
-                <BotIcon className="w-25 h-25 text-teal-500 hover:text-white" />
+                <BotIcon className="w-25 h-25 text-lime-500 hover:text-white" />
               </Button>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Auto
@@ -137,7 +137,7 @@ export default function PlantCard() {
         <section className="bg-white rounded-lg shadow-md dark:bg-gray-900">
           <div className="p-2 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <FlameIcon className="w-6 h-6 text-teal-500" />
+              <FlameIcon className="w-6 h-6 text-lime-500" />
               <div>
                 <h2 className="text-lg font-semibold text-black">Heating</h2>
                 <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -150,7 +150,7 @@ export default function PlantCard() {
               size="icon"
               className="rounded-full shadow-md"
             >
-              <CalendarIcon className="w-6 h-6 text-teal-500" />
+              <CalendarIcon className="w-6 h-6 text-lime-500" />
               <span className="sr-only">Set schedule</span>
             </Button>
           </div>
@@ -158,7 +158,7 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 bg-teal-500 text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 bg-lime-500 text-white shadow-md"
               >
                 <PowerIcon className="w-25 h-25 text-white" />
               </Button>
@@ -169,9 +169,9 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-teal-500 hover:text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-lime-500 hover:text-white shadow-md"
               >
-                <PowerIcon className="w-25 h-25 text-teal-500 hover:text-white" />
+                <PowerIcon className="w-25 h-25 text-lime-500 hover:text-white" />
               </Button>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Off
@@ -180,9 +180,9 @@ export default function PlantCard() {
             <div className="flex flex-col items-center gap-2">
               <Button
                 variant="ghost"
-                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-teal-500 hover:text-white shadow-md"
+                className="rounded-lg p-2 flex flex-col items-center gap-2 hover:bg-lime-500 hover:text-white shadow-md"
               >
-                <BotIcon className="w-25 h-25 text-teal-500 hover:text-white" />
+                <BotIcon className="w-25 h-25 text-lime-500 hover:text-white" />
               </Button>
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 Auto
@@ -193,7 +193,7 @@ export default function PlantCard() {
         <section className="bg-white rounded-lg shadow-md dark:bg-gray-900">
           <div className="p-2 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <SproutIcon className="w-6 h-6 text-teal-500" />
+              <SproutIcon className="w-6 h-6 text-lime-500" />
               <div>
                 <h2 className="text-lg font-semibold text-black">
                   Growth Progress
@@ -208,14 +208,14 @@ export default function PlantCard() {
               size="icon"
               className="rounded-full shadow-md"
             >
-              <CalendarIcon className="w-6 h-6 text-teal-500" />
+              <CalendarIcon className="w-6 h-6 text-lime-500" />
               <span className="sr-only">View history</span>
             </Button>
           </div>
           <div className="grid grid-cols-2 gap-2 p-1">
             <div className="flex items-center justify-center">
               <div className="relative w-16 h-16">
-                <div className="text-teal-500" />
+                <div className="text-lime-500" />
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="text-center">
                     <p className="text-xl font-semibold text-black">25</p>
